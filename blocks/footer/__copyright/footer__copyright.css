@@ -1,0 +1,23 @@
+.footer__copyright {
+    max-width: 282px;
+    height: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media all and (min-width : 375px) and (max-width : 767px) {
+    .footer__copyright {
+        text-align: left;
+    }
+}
+
+@media all and (max-width : 374px) {
+    .footer__copyright {
+        text-align: left;
+    }
+}

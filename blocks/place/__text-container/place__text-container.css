@@ -1,0 +1,32 @@
+.place__text-container {
+    width: 53%;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+@media all and (min-width : 768px) and (max-width: 905px) {
+    .place__text-container {
+        padding-left: 28px;
+    }
+}
+
+@media all and (min-width : 736px) and (max-width: 767px) {
+    .place__text-container {
+        width: 100%;
+        padding-left: 130px;
+    }
+}
+
+@media all and (min-width : 376px) and (max-width: 735px) {
+    .place__text-container {
+        width: 100%;
+        padding-left: 40px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .place__text-container {
+        width: 100%;
+        padding-left: 16px;
+    }
+}

@@ -1,0 +1,6 @@
+.header__lang-container {
+    width: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.video__item-container {
+    position: relative;
+    border-radius: 5px;
+    max-width: 583px;
+    height: 100%;
+}
+
+@media all and (min-width : 768px) {
+    .video__item-container {
+        width: calc((100%/2) - 17px);
+    }
+}
+
+@media all and (max-width : 767px) {
+    .video__item-container {
+        width: 100%;
+        height: calc((100%/2) - 10px)
+    }
+}

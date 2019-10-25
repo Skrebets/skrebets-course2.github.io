@@ -1,0 +1,16 @@
+.place__url {
+    max-width: 484px;
+    margin-top: 23px;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+}
+
+@media all and (max-width: 375px) {
+    .place__url {
+      display: none;
+    }
+}

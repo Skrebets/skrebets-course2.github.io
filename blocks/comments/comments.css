@@ -1,0 +1,24 @@
+@import url('./__author/comments__author.css');
+@import url('./__container/comments__container.css');
+@import url('./__quote/comments__quote.css');
+@import url('./__item/comments__item.css');
+@import url('./__pic/comments__pic.css');
+
+.comments {
+    max-width: 1184px;
+    margin-top: 0px;
+    margin-bottom: 102px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media all and (min-width : 900px) and (max-width : 1220px){
+    .comments {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+}

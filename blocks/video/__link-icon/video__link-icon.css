@@ -1,0 +1,14 @@
+.video__link-icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 41px;
+    height: 41px;
+}
+
+@media all and (max-width : 350px) {
+    .video__link-icon {
+        top: 15px;
+        left: 15px;
+    }
+}

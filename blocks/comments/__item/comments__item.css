@@ -1,0 +1,18 @@
+.comments__item {
+    max-width: 382px;
+}
+
+@media all and (min-width : 900px) {
+    .comments__item {
+        width: calc((100%/3) - 19px);
+    }
+}
+
+@media all and (max-width : 899px) {
+    .comments__item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

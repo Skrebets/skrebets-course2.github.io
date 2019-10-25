@@ -1,0 +1,123 @@
+.cover__subtitle {
+    position: absolute;
+    top: 477px;
+    left: 401px;
+    max-width: 382px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media all and (min-width : 1280px) {
+    .cover__subtitle {
+        top: 477px;
+        left: 35%;
+        width: 382px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media all and (min-width : 1100px) and (max-width : 1279px) {
+    .cover__subtitle {
+        top: 450px;
+        left: 34%;
+        width: 382px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media all and (min-width : 1024px) and (max-width : 1099px) {
+    .cover__subtitle {
+        top: 450px;
+        left: 31%;
+        width: 382px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media all and (min-width : 900px) and (max-width : 1023px) {
+    .cover__subtitle {
+        top: 400px;
+        left: 29%;
+        width: 382px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 899px) {
+    .cover__subtitle {
+        top: 400px;
+        left: 26%;
+        width: 382px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media all and (min-width : 650px) and (max-width : 767px) {
+    .cover__subtitle {
+        top: 270px;
+        left: 26%;
+        width: 343px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media all and (min-width : 500px) and (max-width : 649px) {
+    .cover__subtitle {
+        top: 270px;
+        left: 19%;
+        width: 343px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media all and (min-width : 430px) and (max-width : 499px) {
+    .cover__subtitle {
+        top: 200px;
+        left: 11%;
+        width: 343px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media all and (min-width : 375px) and (max-width : 429px) {
+    .cover__subtitle {
+        top: 200px;
+        left: 5%;
+        width: 343px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media all and (min-width : 321px) and (max-width : 374px) {
+    .cover__subtitle {
+        top: 150px;
+        left: 7%;
+        width: 288px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media all and (max-width : 320px) {
+    .cover__subtitle {
+        top: 150px;
+        left: 5%;
+        width: 288px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

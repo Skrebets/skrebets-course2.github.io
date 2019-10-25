@@ -1,0 +1,30 @@
+.footer__container {
+    min-width: 664px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media all and (min-width : 768px) and (max-width : 999px) {
+    .footer__container {
+        min-width: 465px;
+    }
+}
+
+@media all and (min-width : 375px) and (max-width : 767px) {
+    .footer__container {
+        min-width: 282px;
+        min-height: 243px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width : 374px) {
+    .footer__container {
+        min-width: 200px;
+        min-height: 243px;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,5 @@
+@media all and (max-width : 899px) {
+    .comments__pic {
+        order: 1;
+    }
+}

@@ -1,0 +1,15 @@
+.place__url_margin {
+    margin-top: 87px;
+}
+
+@media all and (min-width : 768px) and (max-width: 905px) {
+    .place__url_margin {
+        margin-top: 39px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .place__url_margin {
+      display: none;
+    }
+}

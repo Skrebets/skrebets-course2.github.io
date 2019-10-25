@@ -1,0 +1,6 @@
+.video__item-container_right {
+    background-image: url(../../../images/Video/observatory.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

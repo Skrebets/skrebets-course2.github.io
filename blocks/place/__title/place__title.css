@@ -1,0 +1,39 @@
+.place__title {
+    max-width: 457px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+@media all and (min-width : 736px) and (max-width: 905px) {
+    .place__title {
+        width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media all and (min-width : 376px) and (max-width: 735px) {
+    .place__title {
+        width: 340px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media all and (max-width: 465px) {
+    .place__title {
+        margin-left: 12px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .place__title {
+        width: 300px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

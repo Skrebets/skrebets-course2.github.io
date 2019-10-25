@@ -1,0 +1,10 @@
+.place__pic-container {
+    width: 47%;
+    max-width: 460px;
+}
+
+@media all and (max-width: 767px) {
+    .place__pic-container {
+        width: 100%;
+    }
+}

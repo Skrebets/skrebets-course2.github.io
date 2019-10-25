@@ -1,0 +1,25 @@
+.wrapper-header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media all and (min-width : 768px) and (max-width: 1200px) {
+    .wrapper-header {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width: 767px) {
+    .wrapper-header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media all and (max-width : 424px) {
+    .wrapper-header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
