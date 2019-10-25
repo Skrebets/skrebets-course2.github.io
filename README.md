@@ -1,10 +1,10 @@
 # skrebets-course2.github.io
 
-*version 0.0.2*
+*version 0.0.3*
 
 ## Link
 
-https://skrebets.github.io/skrebets-course1.github.io/
+https://skrebets.github.io/skrebets-course2.github.io/
 
 ## Description
 
